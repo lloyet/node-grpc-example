@@ -27,7 +27,7 @@ jobs:
       - name: Install Dependencies
         run: npm ci
       - name: Generate ProtoBuff
-        run: npm proto:gen
+        run: npm run proto:gen
       - name: Check code format
         run: npm run lint
       - name: Build application
