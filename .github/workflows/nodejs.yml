@@ -26,8 +26,6 @@ jobs:
         uses: actions/setup-node@v2
       - name: Install Dependencies
         run: npm ci
-      - name: Generate ProtoBuff
-        run: npm run proto:gen
       - name: Check code format
         run: npm run lint
       - name: Build application
