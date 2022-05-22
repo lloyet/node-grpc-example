@@ -1,10 +1,9 @@
 // Original file: proto/greeter.proto
 
-
 export interface HelloResponse {
-  'message'?: (string);
+	message?: string;
 }
 
 export interface HelloResponse__Output {
-  'message'?: (string);
+	message?: string;
 }

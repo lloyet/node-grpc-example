@@ -1,10 +1,9 @@
 // Original file: proto/greeter.proto
 
-
 export interface HelloRequest {
-  'name'?: (string);
+	name?: string;
 }
 
 export interface HelloRequest__Output {
-  'name'?: (string);
+	name?: string;
 }
