@@ -1,0 +1,30 @@
+syntax = "proto3";
+
+package geoguess;
+
+import "google/protobuf/empty.proto";
+
+service Geoguess {
+	rpc getCapital (Point) returns (Capital) {}
+	rpc guessCapital (Point) returns (stream Capital) {};
+	rpc createListCapital (stream Capital) returns (google.protobuf.Empty) {};
+	rpc logGuess (stream Point) returns (stream Log) {};
+}
+
+message Point {
+	float lat = 1;
+	float long = 2;
+}
+
+message Capital {
+	string name = 1;
+	string country = 2;
+	float lat = 3;
+	float long = 4;
+}
+
+message Log {
+	Point point = 1;
+	repeated Capital capitals = 2;
+}
+
