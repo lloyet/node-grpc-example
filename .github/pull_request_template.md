@@ -1,19 +1,26 @@
-## 🌮 Objectif
+# Description
 
-_Un petit résumé de l'objectif de la PR en 1 ligne_
+_Include a summary of changes, reasons of this issue._
 
-## 🔍 Implémentation
+## Type of changes
 
-- _Une liste des modifications_
+_Please delete options that are not relevant._
 
-## 🏕 Amélioration continue
+-   [ ] Bug fix (non-breaking change which fixes an issue)
+-   [ ] New feature (non-breaking change which adds functionality)
+-   [ ] Breaking change (fix or feature that would cause existing functionality to not work as expected)
+-   [ ] This change requires a documentation update
 
-- _(optionnel) Une liste d'autres modifications pas en lien direct avec la PR_
+## Todo list
 
-## ⚠️ Informations supplémentaires
+_Please replace list below with your own checklist._
 
-_(optionnel) Documentation, commandes à lancer, variables d'environment, etc_
+-   [ ] Do something
 
-## 🖼️ Images
+## Additional changes
 
-_(optionnel) Une ou plusieurs captures d'écran_
+_(optional) Quick list of additionals changes not related about this issue._
+
+## Documentation
+
+_(optional) Screenshoot, Documentation, shell commands, environnement, etc to help understanding this issue._
